@@ -13,7 +13,7 @@ module.exports = {
     
     let embed = new MessageEmbed()
     .setColor(color)
-    .setTitle(`All commands with their category!`)
+    .setTitle(`👋 Hey ${message.author.tag}\n🥰 Im glad to see you're using me!\nMy Prefix is: [**+**]`)
     .addField("🌏 Public:", `avatar, github, help, invite, ping, serverinfo, stats, userinfo`)
    // .addField("🛠️ Moderations:", `ban, kick, addrole, rmvrole, bans, channels, channelinfo, purge, hide, lock, unlock, nick, unhide, vkick`)
     .addField("⚓ Emotes Manger:", `add-emoji, add-these, emojiinfo, emojis-list, emojistats, emojis, jumbo, remove-emoji, remove-these, rename-emoji`)
