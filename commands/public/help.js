@@ -22,8 +22,7 @@ module.exports = {
     .addField("🎈 Gifs:", `animal, anime, animeboy, baby, boy, couple, emoji, girl, smoking, sad, neon`)
     .addField("✨ Photos:", `panimal, pbaby, pboy, pemoji, pgirl, panimeboy`)
     .setFooter(`${message.author.username}`)
-    .setTimestamp();
-    message.react(`<:emoji_118:1004679184569876540>`)
+    .setTimestamp();   
  
       return message.channel.send(embed);
     
